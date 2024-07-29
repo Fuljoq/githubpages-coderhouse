@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="main.css">
+  <title>Age Verification</title>
+</head>
+<body>
+  <div class="age-verification">
+    <h2>Age Verification</h2>
+    <form id="form">
+      <label for="birthdate">pon tu edad:</label>
+      <input type="date" id="birthdate" name="birthdate">
+      <small data-error ="date-error"></small>
+      <label for="nombre">Nombre</label>
+      <input type="text" id="nombre" name="nombre">
+      <small data-error ="nombre-error"></small>
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password">
+      <small data-error ="password-error"></small>
+      <button id="boton">Enviar</button>
+    </form>
+    <p id="message"></p>
+    
+    <div id="content">
+        <h2>Bienvenido al contenido</h2>
+        <p>Solo puedes ver este contenido si eres mayor de 18 años.</p>
+    </div>
+  </div>
+  <script src="/js.js"></script>
+</body>
+</html>

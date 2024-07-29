@@ -1,0 +1,6 @@
+[
+    { "nombre": "Vodka", "edadMinima": 18 },
+    { "nombre": "Whisky", "edadMinima": 21 },
+    { "nombre": "Cerveza Artesanal", "edadMinima": 18 }
+  ]
+  
